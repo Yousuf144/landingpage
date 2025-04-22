@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Home</h2>
+    <h2>Home</h2>
+    <h2>Home</h2>
+    <h2>Home</h2>
+
+    <input type="text" name="" value="http://" id="web">
+    <button type="button" onclick="backPage()">Backs</button>   
+    <button type="button" onclick="goToPage()">Go To Page</button>
+    <script>
+     <button type="button" onclick="forwardpage()">Forward</button>
+    function  goToPage(){
+        let a = document.getElementById('web').value;
+        window.location.href = a;
+    }
+
+
+    </script>
+</body>
+</html>
